@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+<?import local.commandpattern.Grid?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" spacing="10" alignment="CENTER">
+    <!-- Adding the Grid (custom component) -->
+    <Grid fx:id="grid" />
+
+    <!-- Adding the Create Code button -->
+    <Button text="Create Code" fx:id="createCodeButton" />
+</VBox>
